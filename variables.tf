@@ -1,2 +1,2 @@
-variable vercel_token {}
-variable gcp_project {}
+variable "vercel_token" {}
+variable "gcp_project" {}

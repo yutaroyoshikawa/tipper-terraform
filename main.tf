@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     vercel = {
-      source = "ondrejsika/vercel"
+      source  = "ondrejsika/vercel"
       version = "2.1.0"
     }
   }
