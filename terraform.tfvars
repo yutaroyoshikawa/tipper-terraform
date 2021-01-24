@@ -1,2 +1,2 @@
 vercel_token = ""
-gcp_project = ""
+gcp_project  = ""
