@@ -1,2 +1,3 @@
 gcp_credential.json
 terraform.tfvars
+.terraform
