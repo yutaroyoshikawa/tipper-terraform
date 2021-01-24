@@ -12,8 +12,9 @@ provider "vercel" {
 }
 
 provider "google" {
-  project = "${var.gcp_project}"
-  region  = "us-central1"
+  project     = "${var.gcp_project}"
+  region      = "us-central1"
+  credentials = "${(file("./gcp_credential.json"))}"
 }
 
 resource "google_app_engine_application" "graphql" {
@@ -29,4 +30,3 @@ resource "google_app_engine_application" "ffmpeg" {
 resource "vercel_project" "tipper" {
   name = "tipper"
 }
-

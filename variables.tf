@@ -1,8 +1,2 @@
-variable "common" {
-  type = map(string)
-
-  default = {
-    "default.region"  = "ap-northeast-1"
-    "default.project" = "project-name"
-  }
-}
+variable vercel_token {}
+variable gcp_project {}
