@@ -27,3 +27,7 @@ resource "google_app_engine_application" "ffmpeg" {
   location_id = "us-central"
 }
 
+resource "vercel_project" "tipper" {
+  name = "tipper"
+}
+
