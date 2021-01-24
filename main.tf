@@ -1,16 +1,3 @@
-terraform {
-  required_providers {
-    vercel = {
-      source  = "ondrejsika/vercel"
-      version = "2.1.0"
-    }
-  }
-}
-
-provider "vercel" {
-  token = "${var.vercel_token}"
-}
-
 provider "google" {
   project     = "${var.gcp_project}"
   region      = "us-central1"
